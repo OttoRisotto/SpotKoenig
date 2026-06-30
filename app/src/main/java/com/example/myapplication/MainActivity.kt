@@ -54,8 +54,8 @@ fun GreetingPreview() {
 fun MapScreen(modifier: Modifier = Modifier) {
     val cameraState = rememberCameraState(
         firstPosition = CameraPosition(
-            target = Position(longitude = 13.4050, latitude = 52.5200), // Berlin
-            zoom = 10.0
+            target = Position(longitude = 6.9583, latitude = 50.9413),
+            zoom = 11.0
         )
     )
 
